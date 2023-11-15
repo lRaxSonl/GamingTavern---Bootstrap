@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.2em;
+    background-color: rgb(22,27,29);
+    color: #555;
+}
+
+p {
+    padding: 0 0 20px 0;
+    line-height: 1.7em;
+}
+
+h1, h2 {
+    font: normal 170% 'century gothic', arial;
+    margin: 0 0 15px 0;
+    padding: 15px 0 5px 0;
+    color: #000;
+}
+
+h2 {
+    font-size: 140%;
+}
+
+ul {
+    margin: 2px 0 22px 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul li {
+    margin: 0 0 6px 0;
+    padding: 0 0 4px 5px;
+    line-height: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mb-4 {
+    padding-left: 25px;
+    font-size: 35px;
+}
+
+.mb-4 a {
+    color: white;
+}
+
+.mb-4 a:hover {
+    color: #EC2227
+}
+
+.p_article ul {
+    padding-top: 25px;
+}
+
+.list-unstyled li a {
+    color: white;
+    padding-top: 10px;
+}
+
+.list-unstyled li a:hover {
+    color: #EC2227;
+}
+
+.header {
+    font-size: 0.8em;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 900px;
+}
+
+.main, .logo, .menubar, .site_content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    width: 1000px;
+    padding-bottom: 40px;
+}
+
+.logo h1, .logo h2 {
+    font: normal 300% 'century gothic', arial, sans-serif;
+    margin: 0 0 0 9px;
+}
+
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover {
+    padding: 22px 0 0 0;
+    color: #fff;
+    letter-spacing: 0.1em;
+}
+
+.logo_text h2 {
+    font-size: 0.9em;
+    padding: 4px 0 0 0;
+    color: #999;
+}
+
+.menubar {
+    width: 820px;
+    height: 46px;
+}
+
+ul.menu {
+    float: right;
+    font-size: 20px;
+}
+
+ul.menu li {
+    float: left;
+    padding: 0 0 0 35px;
+    list-style: none;
+    margin: 1px 2px 0 0;
+}
+
+ul.menu li a {
+    font: normal 100% 'trebucet ms', sans-serif;
+    display: block;
+    height: 20px;
+    padding: 6px 35px 5px 28px;
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.menu li.selected a {
+    color: #EC2227;
+}
+
+ul.menu li a:hover {
+    color: #EC2227;
+}
+
+hr {
+    border: solid 1px rgb(38, 42, 44);
+    height: 1.6px;
+}
+
+.site_content {
+    width: 1000px;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    background-color: rgb(30,34,36);
+}
+
+.sidebar_container {
+    width: 600px;
+    margin-bottom: 80px;
+    font-family: Roboto;
+    margin-left: 90px;
+}
+
+.sidebar_container h1 {
+    color: white;
+    font-size: 35px;
+    margin-left: 205px;
+}
+
+.card {
+    margin-top: 25px;
+    border: solid 1px rgb(38,42,44);
+    background-color: rgb(38,42,44);
+    border-radius: 10px;
+    margin-left: 110px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 410px;
+}
+
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container1 {
+    padding: 2px 16px;
+}
+
+.card_title {
+    color: white;
+}
+
+.card_title:hover {
+    color: #EC2227;
+}
+
+.game_card_flex {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    flex-wrap: wrap;
+    grid-row-gap: 30px;
+    grid-column-gap: 10px;
+}
+
+.game_card_container {
+    border: solid 1px rgb(38,42,44);
+    background-color: rgb(38,42,44);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    width: 450px;
+}
+
+.game_card_container a {
+    color: white;
+    font-family: 'Roboto';
+}
+
+.game_card_container a:hover {
+    color: #EC2227
+}
+
+.lables_passreg_text a {
+    color: white
+}
+
+.lables_passreg_text a:hover {
+    color:#EC2227
+}
+
+.send_send_contact {
+    margin-left: 90px;
+}
