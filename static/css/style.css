@@ -33,7 +33,7 @@ ul {
 .nav li a {
     font: normal 100% 'trebucet ms', sans-serif;
     display: block;
-    height: 20px;
+    height: 3vw;
     padding: 6px 35px 5px 28px;
     color: #fff;
     text-decoration: none;
@@ -75,6 +75,7 @@ a {
 .list-unstyled li a {
     color: white;
     padding-top: 10px;
+    font-size: 1.3vw;
 }
 
 .list-unstyled li a:hover {
@@ -225,6 +226,36 @@ hr {
     color: #EC2227;
 }
 
+@media only screen and (max-width: 600px) {
+    .nav {
+        margin-right: 0;
+    }
+
+    .nav-item {
+        padding-left: 20px;
+        font-size: 16px;
+    }
+
+    .header {
+        font-size: 0.6em;
+        min-width: 0;
+    }
+
+    .logo, .logo_down {
+        margin-left: 50px;
+    }
+
+    .game_card_container {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .header {
+        min-width: 0;
+    }
+}
 
 .btn {
     padding: 7px 24px;
